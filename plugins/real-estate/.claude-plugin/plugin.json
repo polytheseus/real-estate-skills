@@ -1,0 +1,23 @@
+{
+  "name": "real-estate",
+  "description": "Fair-housing-checked listing descriptions with UK material information, fast lead replies and follow-up sequences, and side-by-side offer comparisons with net proceeds.",
+  "version": "0.1.0",
+  "author": {
+    "name": "polytheseus"
+  },
+  "homepage": "https://polytheseus.github.io/real-estate-skills/",
+  "license": "MIT",
+  "keywords": [
+    "real-estate",
+    "realtor",
+    "estate-agent",
+    "listing-description",
+    "mls",
+    "fair-housing",
+    "lead-follow-up",
+    "offers",
+    "cma",
+    "rightmove",
+    "zillow"
+  ]
+}

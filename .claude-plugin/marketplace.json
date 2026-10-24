@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "real-estate-skills",
+  "description": "AI skills for real estate agents, realtors and estate agents: listing descriptions, lead follow-up and offer comparisons. Works in ChatGPT, Gemini, Claude, Codex, Cursor and more.",
+  "owner": {
+    "name": "polytheseus",
+    "email": "346939316+polytheseus@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "real-estate",
+      "description": "Fair-housing-checked listing descriptions with UK material information, fast lead replies and follow-up sequences, and side-by-side offer comparisons with net proceeds.",
+      "source": "./plugins/real-estate",
+      "category": "productivity",
+      "author": {
+        "name": "polytheseus"
+      },
+      "homepage": "https://polytheseus.github.io/real-estate-skills/"
+    }
+  ]
+}
