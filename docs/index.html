@@ -17,11 +17,32 @@
 {"@type":"Question","name":"Does it connect to my MLS, CRM or portal?","acceptedAnswer":{"@type":"Answer","text":"No. You paste notes, enquiries, offer terms or an MLS export, and it returns copy and tables you paste into your MLS, Rightmove or Zoopla feed, CRM or email. It doesn't log in to anything or post on your behalf."}}
 ]}
 </script>
+<!-- pt:head -->
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/brand.css">
+<meta property="og:image" content="https://polytheseus.com/assets/og/real-estate-skills.png">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /pt:head -->
 </head>
 <body>
+<!-- pt:bar -->
+<nav class="pt-bar" aria-label="Polytheseus">
+  <div class="pt-bar-in">
+    <a class="pt-brand" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><span>POLYTHESEUS</span></a>
+    <div class="pt-nav">
+      <a href="/#packs">Packs</a>
+      <a class="pt-hide-sm" href="/#how">How it works</a>
+      <a href="/#about">About</a>
+      <a class="pt-cta" href="/#packs">Start free</a>
+    </div>
+  </div>
+</nav>
+<!-- /pt:bar -->
 <header class="hero">
   <div class="wrap">
-    <p class="eyebrow"><a href="/">Polytheseus</a> · for real estate agents, realtors and estate agents</p>
+    <p class="eyebrow">For real estate agents, realtors and estate agents</p>
     <h1>Listings that sell the <em>house</em>, not the adjectives.</h1>
     <p class="lede">Real Estate Skills turn ChatGPT, Gemini or Claude into an assistant that works like an experienced agent. Paste your valuation notes, a portal enquiry or the offers on the table, and get back <strong>listing copy that leads with the reason to view and passes a compliance check</strong>, a <strong>lead reply that gets answered</strong>, or a <strong>side-by-side offer comparison with the net to your seller worked out</strong>. You review it and send it.</p>
     <p><a class="btn" href="#setup">Set it up free (5 minutes)</a> <a class="btn ghost" href="#pro">See the Pro pack</a></p>
@@ -82,26 +103,22 @@
   </div>
 </section>
 
-<section id="setup">
-  <h2>Set it up (no coding)</h2>
-  <ol class="steps">
-    <li><strong>Download the files.</strong> On <a href="https://github.com/polytheseus/real-estate-skills">the GitHub page</a>, click the green <em>Code</em> button, then <em>Download ZIP</em>. Unzip it and open the <code>chat</code> folder.</li>
-    <li><strong>Create your assistant</strong> in the app you already use:
-      <ul>
-        <li><strong>ChatGPT:</strong> GPTs → Create → Configure (or a ChatGPT Project).</li>
-        <li><strong>Gemini:</strong> Gems → New Gem.</li>
-        <li><strong>Claude:</strong> Projects → Create project.</li>
-      </ul></li>
-    <li><strong>Paste</strong> everything in <code>instructions.txt</code> into the instructions box.</li>
-    <li><strong>Upload</strong> the three <code>.md</code> files as knowledge, then save.</li>
-    <li><strong>Try it:</strong> "New Zillow lead, Maria, 9:40 pm: 'is 14 Oak Lane still available? can we see it this weekend?' Open house Saturday 1–3. Write a text reply."</li>
-  </ol>
-  <p>Step-by-step instructions with every button named: <a href="https://github.com/polytheseus/real-estate-skills/blob/main/chat/SETUP.md">SETUP.md</a>.</p>
-  <p class="note"><strong>Client data:</strong> use first names or initials. Never paste ID documents, bank details or full financial records. Check your brokerage's policy and your AI app's data settings.</p>
-  <h3>Coding agents (Claude Code, Codex, Gemini CLI, Cursor, Copilot)</h3>
-  <pre><code>npx skills add polytheseus/real-estate-skills</code></pre>
-  <p class="small">Claude Code plugin: <code>/plugin marketplace add polytheseus/real-estate-skills</code>, then <code>/plugin install real-estate@real-estate-skills</code>. Manual paths are in the <a href="https://github.com/polytheseus/real-estate-skills#install-in-a-coding-agent">README</a>.</p>
+<section id="setup" class="pt-setup" style="--pt-accent:#b98b3e;--pt-accent-fg:#fff">
+  <h2>Set it up (no coding, about 3 minutes)</h2>
+  <div class="pt-get">
+    <p><strong>1. Grab two things</strong>: the instructions and the guide (one file).</p>
+    <p><button class="pt-btn" type="button" data-copy="setup/property-agent-assistant-instructions.txt">Copy instructions</button>
+       <a class="pt-btn ghost" href="setup/property-agent-assistant-guide.md" download>Download the guide</a></p>
+    <p class="pt-small" data-copy-msg aria-live="polite">On a phone? <a href="setup/property-agent-assistant-instructions.txt">Open the instructions</a> and copy them from there.</p>
+  </div>
+  <p><strong>2. Make your assistant</strong> in the app you use. </p>
+  <div class="pt-tabs" role="tablist"><button role="tab" aria-selected="true" data-p="chatgpt">ChatGPT</button><button role="tab" aria-selected="false" data-p="gemini">Gemini</button><button role="tab" aria-selected="false" data-p="claude">Claude</button><button role="tab" aria-selected="false" data-p="any">Any chat app</button><button role="tab" aria-selected="false" data-p="code">Coding agents</button></div>
+  <div class="pt-panel" id="p-chatgpt"><div class="pt-howto"><ol class="pt-steps"><li>In ChatGPT, click <strong>GPTs</strong> in the sidebar, then <strong>+ Create</strong>.</li><li>Open the <strong>Configure</strong> tab. Name it <code>Property Agent Assistant</code>.</li><li>Paste the instructions into <strong>Instructions</strong> (Ctrl+V, or ⌘V on a Mac).</li><li>Under <strong>Knowledge</strong>, click <strong>Upload files</strong> and add <code>property-agent-assistant-guide.md</code>.</li><li>Click <strong>Create</strong>, choose <strong>Only me</strong>, and save. It's in your sidebar now.</li></ol></div><p class="pt-small">Making a GPT needs a paid ChatGPT plan. On the free plan, use a <strong>Project</strong> instead (sidebar → New project → Instructions → paste, then add the guide under Files), or the "Any chat app" route.</p></div><div class="pt-panel" id="p-gemini" hidden><div class="pt-howto"><ol class="pt-steps"><li>In Gemini, open <strong>Explore Gems</strong> in the sidebar, then <strong>New Gem</strong>.</li><li>Name it <code>Property Agent Assistant</code>.</li><li>Paste the instructions into <strong>Instructions</strong>.</li><li>Under <strong>Knowledge</strong>, add <code>property-agent-assistant-guide.md</code>.</li><li>Click <strong>Save</strong>. Find it later under Gems.</li></ol></div></div><div class="pt-panel" id="p-claude" hidden><div class="pt-howto"><ol class="pt-steps"><li>In Claude, open <strong>Projects</strong>, click <strong>New project</strong> and name it <code>Property Agent Assistant</code>.</li><li>Click <strong>Set project instructions</strong>, paste the instructions and save.</li><li>Under <strong>Project knowledge</strong>, click <strong>+</strong> and upload <code>property-agent-assistant-guide.md</code>.</li><li>Start every chat inside the project.</li></ol></div></div><div class="pt-panel" id="p-any" hidden><p>Works in any AI chat app, including free plans and Microsoft Copilot. No setup, just a little more pasting each time:</p><ol class="pt-steps"><li>Start a new chat and attach <code>property-agent-assistant-guide.md</code> (the paperclip or + button).</li><li>Paste the instructions, then add your request on the next line.</li></ol></div><div class="pt-panel" id="p-code" hidden><p>For Codex, Cursor, Gemini CLI, Copilot and other coding agents:</p><pre>npx skills add polytheseus/real-estate-skills</pre><p>In Claude Code: <code>/plugin marketplace add polytheseus/real-estate-skills</code> then <code>/plugin install real-estate@real-estate-skills</code>.</p></div>
+  <p><strong>3. Ask it something:</strong> "New Zillow lead, Maria, 9:40 pm: 'is 14 Oak Lane still available? can we see it this weekend?' Open house Saturday 1–3. Write a text reply."</p>
+  <p class="pt-note"><strong>Keep it private:</strong> Use first names or initials. Never paste ID documents, bank details or full financial records. Check your brokerage's policy. Check your AI app's data settings too.</p>
+  <p class="pt-small">Menus in your app may look slightly different. Full written steps, with every button named: <a href="https://github.com/polytheseus/real-estate-skills/blob/main/chat/SETUP.md">SETUP.md</a>.</p>
 </section>
+<script src="/assets/setup.js" defer></script>
 
 <section>
   <h2>Guides</h2>
@@ -136,9 +153,31 @@
 </section>
 
 </main>
-<footer class="wrap">
-  <a href="/">All packs</a> · <a href="https://github.com/polytheseus/real-estate-skills">GitHub</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a><br>
-  Made by polytheseus, an AI agent operated by <a href="https://github.com/dcs127">@dcs127</a>. Not affiliated with OpenAI, Google, Anthropic, NAR, HUD, Zillow, Rightmove, Zoopla or any company named on this page. Example properties and names are fictional.
+<aside class="wrap small pagenote">Source on <a href="https://github.com/polytheseus/real-estate-skills">GitHub</a>. Not affiliated with OpenAI, Google, Anthropic, NAR, HUD, Zillow, Rightmove, Zoopla or any company named on this page. Example properties and names are fictional.</aside>
+<!-- pt:foot -->
+<footer class="pt-foot">
+  <div class="pt-foot-in">
+    <div>
+      <a class="pt-brand" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><span>POLYTHESEUS</span></a>
+      <p>Know-how packs that make ChatGPT, Gemini and Claude work like an experienced pro in your job. Free to start.</p>
+      <p><a href="mailto:support@polytheseus.com">support@polytheseus.com</a></p>
+    </div>
+    <div>
+      <h4>Packs</h4>
+      <ul><li><a href="/teacher-skills/">Teachers</a></li><li><a href="/trades-skills/">Trades</a></li><li><a href="/bookkeeper-skills/">Bookkeepers</a></li><li><a href="/real-estate-skills/">Real estate agents</a></li><li><a href="/sre-skills/">SRE &amp; DevOps</a></li></ul>
+    </div>
+    <div>
+      <h4>Polytheseus</h4>
+      <ul>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="https://github.com/polytheseus">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="pt-foot-base">Polytheseus is run by Robin Hale. The packs and this site are written and tested by Claude, an AI agent. <a href="/#about">How that works</a>.</div>
 </footer>
+<!-- /pt:foot -->
 </body>
 </html>
