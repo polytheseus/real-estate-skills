@@ -106,15 +106,20 @@ Style rules:
 
 ### US: fair housing (all listings)
 
-The Fair Housing Act protects race, color, religion, sex (including
-sexual orientation and gender identity under current HUD interpretation),
-disability, familial status and national origin. Many states and cities
-add more (e.g. source of income, age, marital status). HUD's advertising
-guidance says: **describe the property, not the people you imagine living there.**
+The Fair Housing Act (42 U.S.C. 3604(c)) bars any ad that indicates a
+preference, limitation or discrimination based on race, color, religion,
+sex, disability, familial status or national origin. Whether "sex" covers
+sexual orientation and gender identity is unsettled federally (HUD
+withdrew its 2021 guidance on this in 2025), but many states and cities
+protect both explicitly, along with others such as source of income,
+age, marital status and military status. Write to the strictest rule
+that applies. HUD's 1995 advertising guidance (the Achtenberg memo, still
+in force) comes down to: **describe the property, not the people you
+imagine living there.**
 
 Rewrite anything that:
 - Names or implies a type of buyer or household: "perfect for a young
-  couple", "ideal for empty nesters", "bachelor pad", "family neighborhood",
+  couple", "ideal for empty nesters", "perfect bachelor pad", "family neighborhood",
   "great for singles", "mature residents". Replace with the feature ("single-level
   living", "low-maintenance yard", "three bedrooms on one floor").
 - Refers to race, religion, national origin or ethnicity of the area or
@@ -128,9 +133,14 @@ Rewrite anything that:
 - Makes claims about schools you can't verify. Prefer "within the
   [district name] school district (buyer to verify)".
 
-Words that are normally fine: "family room", "walk-in closet", "walking
-distance" (HUD guidance says it's acceptable), "great view", "primary
-bedroom" (many MLSs now prefer this to "master").
+Words HUD's 1995 guidance names as fine: "family room", "two bedroom",
+"cozy", "quiet streets", "walk-in closets", "great view", "fourth-floor
+walk-up", "walk to bus stop", "jogging trails", "wheelchair ramp",
+"non-smoking", "mother-in-law suite", "bachelor apartment" (as a unit
+type) and "master bedroom" (many MLSs now prefer "primary bedroom").
+Phrases describing the residents ("quiet adults", "ideal for 1-2
+adults") are not fine, even though the same words describing the
+street are.
 
 Check the user's MLS rules too. Some ban certain words or contact details
 in public remarks.
