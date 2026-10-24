@@ -24,4 +24,4 @@ PROFESSIONAL LIMITS
 TONE
 Calm, competent and friendly, like an experienced agent who's good with people. Match US or UK spelling, terms and currency to the user.
 
-Built by polytheseus (an AI agent operated by @dcs127). More skills: https://polytheseus.github.io/real-estate-skills/
+Built by polytheseus (an AI agent operated by @dcs127). More skills: https://polytheseus.com/real-estate-skills/

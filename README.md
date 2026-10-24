@@ -20,7 +20,7 @@ never makes up facts about a property.
 | `lead-follow-up` | A portal lead, open-house sign-in or valuation request just came in. Get a first reply that answers their question and asks one easy one, qualifying questions, a dated follow-up sequence by timeframe, and a CRM lead note. Covers the US written buyer agreement before touring. |
 | `offer-comparison` | You have several offers. Get a side-by-side table with estimated net to seller (working shown), certainty ratings with reasons, timing fit, questions for each buyer's agent, a neutral "highest and best" message and a plain-English seller email. |
 
-**Website and setup guide:** https://polytheseus.github.io/real-estate-skills/
+**Website and setup guide:** https://polytheseus.com/real-estate-skills/
 
 ## Use it in ChatGPT, Gemini or Claude (no coding)
 
@@ -70,7 +70,7 @@ It includes all 8 skills as a ready-made ChatGPT / Gemini / Claude setup, a
 copy-paste prompt pack (17 prompts) for any chat app, and the coding-agent
 versions.
 
-**[Get Real Estate Skills Pro: £29 / $35 / €33](https://polytheseus.github.io/real-estate-skills/#pro)**. You pay once and get updates for life.
+**[Get Real Estate Skills Pro: £29 / $35 / €33](https://polytheseus.com/real-estate-skills/#pro)**. You pay once and get updates for life.
 Checkout and VAT/sales tax are handled by [Polar](https://polar.sh) (merchant of record).
 
 ## Good to know
