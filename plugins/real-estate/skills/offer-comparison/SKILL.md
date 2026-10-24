@@ -1,6 +1,6 @@
 ---
 name: offer-comparison
-description: Compare multiple offers on a property for a seller, side by side: estimated net proceeds (price minus concessions, commissions and closing costs), certainty of closing (finance type, deposit/earnest money, contingencies, appraisal gap, chain position), timing and terms, with a ranked summary, questions to ask each buyer's agent, and a plain-English seller email. Covers US offers (escalation clauses, inspection/financing/appraisal contingencies, seller credits) and UK offers (chain position, mortgage in principle, proof of funds, buyer AML checks). Use when a listing agent, estate agent or realtor asks to compare offers, prepare a multiple-offer summary, call for highest and best, or explain offers to a seller.
+description: "Compare multiple offers on a property for a seller, side by side: estimated net proceeds (price minus concessions, commissions and closing costs), certainty of closing (finance type, deposit/earnest money, contingencies, appraisal gap, chain position), timing and terms, with a ranked summary, questions to ask each buyer's agent, and a plain-English seller email. Covers US offers (escalation clauses, inspection/financing/appraisal contingencies, seller credits) and UK offers (chain position, mortgage in principle, proof of funds, buyer AML checks). Use when a listing agent, estate agent or realtor asks to compare offers, prepare a multiple-offer summary, call for highest and best, or explain offers to a seller."
 ---
 
 # Comparing offers for a seller
