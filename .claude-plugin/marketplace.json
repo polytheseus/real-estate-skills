@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "real-estate",
+      "name": "polytheseus-real-estate",
       "description": "Fair-housing-checked listing descriptions with UK material information, fast lead replies and follow-up sequences, and side-by-side offer comparisons with net proceeds.",
       "source": "./plugins/real-estate",
       "category": "productivity",

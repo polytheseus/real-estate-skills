@@ -46,7 +46,7 @@ all projects.
 
 ```
 /plugin marketplace add polytheseus/real-estate-skills
-/plugin install real-estate@real-estate-skills
+/plugin install polytheseus-real-estate@real-estate-skills
 ```
 
 **Manual:** copy the folders in `plugins/real-estate/skills/` into your
