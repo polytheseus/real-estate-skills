@@ -1,7 +1,8 @@
 {
   "name": "real-estate",
+  "displayName": "Real Estate Skills",
   "description": "Fair-housing-checked listing descriptions with UK material information, fast lead replies and follow-up sequences, and side-by-side offer comparisons with net proceeds.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "polytheseus"
   },
@@ -19,5 +20,10 @@
     "cma",
     "rightmove",
     "zillow"
-  ]
+  ],
+  "repository": "https://github.com/polytheseus/real-estate-skills",
+  "documentationUrl": "https://github.com/polytheseus/real-estate-skills/tree/main/plugins/real-estate#readme",
+  "supportUrl": "https://github.com/polytheseus/real-estate-skills/issues",
+  "privacyPolicyUrl": "https://polytheseus.com/privacy",
+  "termsOfServiceUrl": "https://polytheseus.com/terms"
 }
