@@ -1,4 +1,4 @@
-# Real Estate Skills
+# Polytheseus Real Estate Skills
 
 **Free AI skills for real estate agents, realtors and estate agents:
 listing descriptions that pass a fair-housing and material-information
