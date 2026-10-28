@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fair housing listing checker (free tool) | Polytheseus</title>
+<meta name="robots" content="noindex, follow">
+<link rel="stylesheet" href="/assets/brand.css">
+<link rel="stylesheet" href="../style.css">
+<style>
+.answer{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--brass);border-radius:6px;padding:14px 18px;margin:28px 0}
+.answer p{margin:.3em 0}
+table.t{width:100%;border-collapse:collapse;background:var(--card);font-size:15px;margin:12px 0 20px}
+table.t th,table.t td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+table.t th{background:#efe7d6;font-family:Georgia,serif}
+.toc{font-size:15px}
+textarea#fh-input{width:100%;min-height:150px;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:5px;background:#fff}
+.tool{background:var(--card);border:2px solid var(--green2);border-radius:8px;padding:18px 20px;margin:20px 0}
+.tool button{font:inherit;font-weight:600;border:0;border-radius:4px;padding:9px 18px;cursor:pointer;background:var(--green);color:#fff;margin:8px 8px 0 0}
+.tool button.ghost{background:transparent;color:var(--green);border:2px solid var(--green)}
+.fh-text{background:#fff;border:1px solid var(--line);border-radius:5px;padding:12px 14px;margin:10px 0}
+mark{padding:0 2px;border-radius:3px}
+mark sup{font-size:10px;margin-left:1px}
+mark.fh-avoid,.fh-tag.fh-avoid{background:#f3ddd6;color:var(--red)}
+mark.fh-review,.fh-tag.fh-review{background:#f5ead2;color:#7a5a17}
+mark.fh-ok,.fh-tag.fh-ok{background:#dcefe2;color:var(--ok)}
+.fh-tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 7px;border-radius:3px}
+.fh-list li{margin-bottom:8px;font-size:15px}
+.cta{background:var(--card);border:2px solid var(--brass);border-radius:8px;padding:20px 22px;margin:34px 0}
+</style>
+<style>
+body{background:var(--bg)}
+.pt-embed-main{max-width:900px;margin:0 auto;padding:4px 14px 10px}
+.pt-embed-main h2{margin-top:12px}
+.pt-embed-by{font:14px/1.5 "Inter","Segoe UI",system-ui,sans-serif;color:#5d6268;margin:10px 0 0;padding-top:8px;border-top:1px solid #dedad2}
+@media print{.pt-embed-by{display:none}}
+</style>
+</head>
+<body>
+<main class="pt-embed-main">
+<h2>Free listing wording checker</h2>
+<div class="tool">
+  <p>Paste your listing and press <strong>Check</strong>. It runs entirely in your browser, and nothing you paste is sent or stored. It matches the phrases on this page (and close variants), so treat it as a second pair of eyes, not a sign-off: a word list can't read context.</p>
+  <label for="fh-input" class="small">Listing text</label>
+  <textarea id="fh-input" placeholder="Paste your listing description here"></textarea>
+  <button type="button" id="fh-run">Check</button> <button type="button" class="ghost" id="fh-sample">Try a sample listing</button>
+  <div id="fh-output" aria-live="polite"></div>
+</div>
+<p class="pt-embed-by">Free tool by <a href="https://polytheseus.com/" target="_blank" rel="noopener">Polytheseus</a> · <a href="https://polytheseus.com/real-estate-skills/guides/fair-housing-words-to-avoid#checker" target="_blank" rel="noopener">Full guide and how to use it</a> · Nothing you type leaves your browser.</p>
+</main>
+<script src="../guides/fh-checker.js"></script>
+<script>
+(function () {
+  var last = 0;
+  function send() {
+    var h = Math.ceil(document.documentElement.scrollHeight);
+    if (h !== last && window.parent !== window) { last = h; window.parent.postMessage({ptHeight: h}, "*"); }
+  }
+  addEventListener("load", send);
+  if (window.ResizeObserver) new ResizeObserver(send).observe(document.body);
+  else setInterval(send, 700);
+})();
+</script>
+</body>
+</html>
