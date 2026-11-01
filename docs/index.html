@@ -46,12 +46,45 @@
     <p class="eyebrow">For real estate agents, realtors and estate agents</p>
     <h1>Listings that sell the <em>house</em>, not the adjectives.</h1>
     <p class="lede">Real Estate Skills turn ChatGPT, Gemini or Claude into an assistant that works like an experienced agent. Paste your valuation notes, a portal enquiry or the offers on the table, and get back <strong>listing copy that leads with the reason to view and passes a compliance check</strong>, a <strong>lead reply that gets answered</strong>, or a <strong>side-by-side offer comparison with the net to your seller worked out</strong>. You review it and send it.</p>
-    <p><a class="btn" href="#setup">Set it up free (5 minutes)</a> <a class="btn ghost" href="#pro">See the Pro pack</a></p>
+    <p><a class="btn" href="#try">Try it now (one tap)</a> <a class="btn ghost" href="#setup">Set it up free (5 minutes)</a> <a class="btn ghost" href="#pro">See the Pro pack</a></p>
     <p class="tools">For listing agents · buyer's agents · estate and lettings agents · assistants and TCs · US and UK<br>Works with: ChatGPT · Gemini · Claude · Microsoft Copilot (prompt pack) · Codex · Cursor · Gemini CLI · Claude Code</p>
   </div>
 </header>
 
 <main class="wrap">
+
+<!-- pt:try -->
+<section id="try" class="pt-try" style="--pt-accent:#b98b3e;--pt-accent-fg:#fff">
+  <h2>Try it now: one tap, nothing to set up</h2>
+  <p>Pick a job. Your AI app opens with the instructions and a sample job already typed in, so you can see what it writes before you set anything up.</p>
+  <div class="pt-try-chips" role="tablist"><button type="button" role="tab" data-s="open-house" aria-selected="true">Follow up open house sign-ins</button><button type="button" role="tab" data-s="offers" aria-selected="false">Compare three offers for a seller</button><button type="button" role="tab" data-s="listing" aria-selected="false">Listing copy from rough notes</button></div>
+  <div class="pt-try-panel" data-s="open-house" data-brief="You are an assistant for a real estate agent (US or UK; match my spelling and market). Use only the facts I give you; never invent prices, dates, measurements or features, and recalculate every figure. Describe the property, never the kind of buyer (US fair housing law; good practice everywhere). Legal and contract points are prompts to check, not legal advice. Task: write a first follow-up for each person who signed in. Each one answers what they asked in the first line, gives one useful fact from my notes that isn&#x27;t in the listing, and asks exactly one easy question with options. Texts under 300 characters, signed with my name. No fake scarcity. If the next step is a private tour for a US buyer, mention in plain words the short written buyer agreement needed before touring. Then a one-line lead note and the next follow-up date for each, and a &quot;Check before you send&quot; list.">
+    <label for="try-open-house">The sample job (change it to your own if you like)</label>
+    <textarea id="try-open-house" rows="6">Open house Saturday at 22 Maple Avenue, 3 bed, listed at $410,000. I&#x27;m Sam, Brightway Realty.
+Sign-ins (all ticked OK to text):
+1. Dana: asked if the roof is new. It was replaced in 2021, receipts in the disclosure pack.
+2. Luis: has a house to sell first, asked about the school district.
+3. Priya: liked the yard, asked if offers are due by a date. Offers reviewed Tuesday at 5 pm.</textarea>
+    <p class="pt-try-go"><a class="pt-btn" data-app="chatgpt" target="_blank" rel="noopener" href="https://chatgpt.com/">Open in ChatGPT</a><a class="pt-btn" data-app="claude" target="_blank" rel="noopener" href="https://claude.ai/new">Open in Claude</a><button type="button" class="pt-btn ghost" data-app="copy">Copy for Gemini or another app</button></p>
+    <p class="pt-small">Uses the free <strong>lead-follow-up</strong> skill, shortened to fit in one message.</p>
+  </div>
+  <div class="pt-try-panel" data-s="offers" data-brief="You are an assistant for a real estate agent (US or UK; match my spelling and market). Use only the facts I give you; never invent prices, dates, measurements or features, and recalculate every figure. Describe the property, never the kind of buyer (US fair housing law; good practice everywhere). Legal and contract points are prompts to check, not legal advice. Task: compare these offers for my seller. For each, show the estimated net with the working (price, minus seller credits, minus commission, minus other closing costs), and rate certainty High, Medium or Low with a one-line reason (finance type, contingencies, appraisal gap cover). Put it in one table, rank the offers by the seller&#x27;s priorities, not just price, and list the options (accept, counter, or highest-and-best with the same deadline for everyone). Then questions for each buyer&#x27;s agent and a seller email under 300 words. Everything is an estimate; the seller decides." hidden>
+    <label for="try-offers">The sample job (change it to your own if you like)</label>
+    <textarea id="try-offers" rows="6">Listed at $520k. Offer A $535k, FHA 3.5% down, asks $10k seller credit, 17-day inspection, 21-day financing, close in 45 days. Offer B $525k, conventional 20% down, full underwriting approval, $10k appraisal gap cover, 7-day inspection, close in 30 days. Offer C $515k cash, proof of funds, as-is with 5-day info-only inspection, close in 14 days. The seller is buying a place that closes in 5 weeks. Commission 5% total, other closing costs about $6k.</textarea>
+    <p class="pt-try-go"><a class="pt-btn" data-app="chatgpt" target="_blank" rel="noopener" href="https://chatgpt.com/">Open in ChatGPT</a><a class="pt-btn" data-app="claude" target="_blank" rel="noopener" href="https://claude.ai/new">Open in Claude</a><button type="button" class="pt-btn ghost" data-app="copy">Copy for Gemini or another app</button></p>
+    <p class="pt-small">Uses the free <strong>offer-comparison</strong> skill, shortened to fit in one message.</p>
+  </div>
+  <div class="pt-try-panel" data-s="listing" data-brief="You are an assistant for a real estate agent (US or UK; match my spelling and market). Use only the facts I give you; never invent prices, dates, measurements or features, and recalculate every figure. Describe the property, never the kind of buyer (US fair housing law; good practice everywhere). Legal and contract points are prompts to check, not legal advice. Task: write the listing. Lead with the one or two facts a buyer would book a viewing for, in the headline (under 60 characters) and first sentence. Then a walk-through in viewing order with one concrete detail per room, a practical facts block, location with the walking times I gave, and how to book. No adjective soup (stunning, nestled, deceptively). UK: flag any missing material information (price, council tax, tenure, EPC, broadband, measurements). Then 6 feature bullets, a social caption and a WhatsApp blurb under 300 characters." hidden>
+    <label for="try-listing">The sample job (change it to your own if you like)</label>
+    <textarea id="try-listing" rows="6">UK, Rightmove. 3 bed 1930s semi, Hilldale. Guide price £425,000. Freehold, council tax band D. Kitchen-diner extended in 2023 with bifold doors, building regs signed off. 90 ft south-facing garden backs onto the park with a gate. 6 minutes&#x27; walk to the station. Bathroom upstairs plus a downstairs WC. Driveway for 2 cars. Gas central heating. Seller wants it to sound family-friendly.</textarea>
+    <p class="pt-try-go"><a class="pt-btn" data-app="chatgpt" target="_blank" rel="noopener" href="https://chatgpt.com/">Open in ChatGPT</a><a class="pt-btn" data-app="claude" target="_blank" rel="noopener" href="https://claude.ai/new">Open in Claude</a><button type="button" class="pt-btn ghost" data-app="copy">Copy for Gemini or another app</button></p>
+    <p class="pt-small">Uses the free <strong>listing-description</strong> skill, shortened to fit in one message.</p>
+  </div>
+  <p class="pt-try-msg" aria-live="polite"></p>
+  <p class="pt-small">The button only opens your AI app with this text: nothing is sent to us. ChatGPT works without an account; Claude needs a free sign-in. If your phone opens the app without the text, use Copy and paste it in. Use first names only, as in the sample.</p>
+  <p><strong>Like what it wrote?</strong> <a href="#setup">Set it up free</a> and it works this way every time, from your own rough notes, with the full skills.</p>
+</section>
+<!-- /pt:try -->
 
 <section>
   <h2>Same house, two listings</h2>
