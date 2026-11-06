@@ -127,6 +127,10 @@ Rewrite anything that:
   "near [church/temple]" used as a selling point about who lives there.
   Naming a nearby landmark as a location reference is fine ("two blocks
   from St Mark's") if it's not a statement about the community.
+- Mentions the sellers' or current owners' religion, race, origin or
+  family, even as the reason for a showing rule ("owners are Jewish, so
+  no Saturday showings", "owners can walk to temple"). Keep the rule and
+  drop the reason: "Seller asks for no showings on Saturday."
 - Excludes or discourages people with disabilities: "not suitable for
   wheelchairs", "must be able to climb stairs". Describe the feature
   instead: "second-floor unit, no elevator".
