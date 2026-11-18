@@ -1,0 +1,33 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "polytheseus-real-estate-skills",
+  "displayName": "Polytheseus Real Estate Skills",
+  "version": "0.1.2",
+  "description": "Fair-housing-checked listing descriptions with UK material information, fast lead replies and follow-up sequences, and side-by-side offer comparisons with net proceeds.",
+  "logo": "plugins/real-estate/.claude-plugin/icon.png",
+  "suggestedPrompts": [
+    "Write follow-up texts for everyone who signed in at today's open house",
+    "Write a listing description from these property notes",
+    "Compare these three offers side by side for my seller"
+  ],
+  "author": {
+    "name": "polytheseus",
+    "url": "https://polytheseus.com"
+  },
+  "homepage": "https://polytheseus.com/real-estate-skills/",
+  "repository": "https://github.com/polytheseus/real-estate-skills",
+  "license": "MIT",
+  "keywords": [
+    "real-estate",
+    "realtor",
+    "estate-agent",
+    "listing-description",
+    "mls",
+    "fair-housing",
+    "lead-follow-up",
+    "offers",
+    "cma",
+    "rightmove",
+    "zillow"
+  ]
+}
