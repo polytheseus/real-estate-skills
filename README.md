@@ -49,6 +49,14 @@ all projects.
 /plugin install polytheseus-real-estate@real-estate-skills
 ```
 
+**Gemini CLI extension:**
+
+```
+gemini extensions install https://github.com/polytheseus/real-estate-skills
+```
+
+Update later with `gemini extensions update --all`.
+
 **Manual:** copy the folders in `plugins/real-estate/skills/` into your
 agent's skills directory, for example `~/.claude/skills/` (Claude Code),
 `~/.agents/skills/` (Codex), `~/.gemini/skills/` (Gemini CLI),
