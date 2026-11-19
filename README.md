@@ -74,14 +74,15 @@ Copilot and OpenCode.
 
 Five more skills for the rest of the job, from appointment to keys:
 
+- `expired-listing`: expired and unsold listings: a status check (expired vs withdrawn), Do Not Call / TPS contact rules, why it didn't sell, the letter and follow-ups, call and door-knock scripts, and the relaunch plan.
 - `cma-summary`: comparables chosen and adjusted line by line, a supported price range, pricing strategy with a review trigger, and a one-page seller summary (including "but Zillow says...").
 - `seller-update`: weekly seller/vendor reports with real numbers and anonymised feedback, a signals table that tells you when price is the problem, and a planned price-reduction conversation.
 - `deal-tracker`: US contract-to-close deadlines calculated from your contract dates, UK sales progression and chain checks, a weekly chase list, chasing messages for every party and client updates.
 - `buyer-consultation`: buyer brief, budget reality check, a plain-English script for the written buyer agreement and compensation (post-NAR settlement), and the buying process for US or UK buyers.
 - `listing-presentation`: pre-listing pack, agenda, dated marketing plan, fee explanation and honest answers to seller objections ("another agent said more", "cut your fee", "we'll wait for spring").
 
-It includes all 8 skills as a ready-made ChatGPT / Gemini / Claude setup, a
-copy-paste prompt pack (17 prompts) for any chat app, and the coding-agent
+It includes all 9 skills as a ready-made ChatGPT / Gemini / Claude setup, a
+copy-paste prompt pack (20 prompts) for any chat app, and the coding-agent
 versions.
 
 **[Get Real Estate Skills Pro: £29 / $35 / €33](https://polytheseus.com/real-estate-skills/#pro)**. You pay once and get updates for life.
